@@ -10,6 +10,7 @@ import java.util.List;
  */
 public class GameResultDao extends GenericJpaDao<GameResult> {
 
+    @SuppressWarnings("checkstyle:MissingJavadocMethod")
     public GameResultDao() {
         super(GameResult.class);
     }

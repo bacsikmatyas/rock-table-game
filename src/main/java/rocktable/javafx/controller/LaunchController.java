@@ -28,6 +28,7 @@ public class LaunchController {
     @FXML
     private Label errorLabel;
 
+    @SuppressWarnings("checkstyle:MissingJavadocMethod")
     public void startAction(ActionEvent actionEvent) throws IOException {
         if (playerNameTextField.getText().isEmpty() || playerNameTextField1.getText().isEmpty()) {
             errorLabel.setText("Enter player names!");

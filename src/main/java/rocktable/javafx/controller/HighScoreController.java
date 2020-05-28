@@ -94,6 +94,7 @@ public class HighScoreController {
         highScoreTable.setItems(observableResult);
     }
 
+    @SuppressWarnings("checkstyle:MissingJavadocMethod")
     public void handleRestartButton(ActionEvent actionEvent) throws IOException {
         log.debug("{} is pressed", ((Button) actionEvent.getSource()).getText());
         log.info("Loading launch scene...");
