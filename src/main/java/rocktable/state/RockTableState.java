@@ -174,7 +174,7 @@ public class RockTableState {
 
     /**
      * Checks whether the active player can pick up rock from the {@code n}
-     * position in the {@code chosenRow or not.
+     * position in the {@code chosenRow} or not.
      *
      * @param n the position(column) that the active player wants to check
      * @return {@code true} if the active player can pick up the rock int the {@code n} position,
@@ -221,7 +221,7 @@ public class RockTableState {
 
     /**
      * Checks whether the active player can place a rock to the {@code n}
-     * position in the {@code chosenRow or not.
+     * position in the {@code chosenRow} or not.
      *
      * @param n the position(column) that the active player wants to check
      * @return {@code true} if the active player can place a rock int the {@code n} position,

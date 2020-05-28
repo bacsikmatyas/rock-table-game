@@ -176,6 +176,7 @@
                 <artifactId>maven-site-plugin</artifactId>
                 <version>3.9.0</version>
             </plugin>
+
         </plugins>
         <resources>
             <resource>
@@ -238,6 +239,7 @@
                                 </goals>
                             </execution>
                         </executions>
+                        <configuration></configuration>
                     </plugin>
                 </plugins>
             </build>
